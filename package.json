@@ -46,7 +46,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://chaikalamrullah.github.io/DIY-Nav-WebApp/",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
