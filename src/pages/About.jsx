@@ -13,9 +13,13 @@ const AboutPage = () => {
     >
       <h2>About</h2>
       <p> Hey there!
-          First of all thank you for participating in the trial of this app.
+
+          My name is Chaikal Amrullah, I am a master student at
+          Geodesy and Geoinformation, Technical University of Munich, Germany.
+
+          First of all, thank you for participating in the trial of this app.
           This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)\n
-          with title "Building a Design-It-Yourself Navigation Web App Interface".
+          with the title "Building a Design-It-Yourself Navigation Web App Interface".
           The application is made to find out user preferences related to
           symbol design for navigation applications on Augmented Reality (AR) devices.
           Symbols that can be easily understood by users are expected
@@ -73,7 +77,8 @@ const AboutPage = () => {
 
           Acknowledgments for this application are also addressed to
           Shalat, Shabriwa (https://github.com/briwa/react-image-annotate)
-          for the initial development of the application; Raisah Irfani, Khonsa for Route Image Visualization.
+          for the initial application development of the application and
+          Raisah Irfani, Khonsa for route image visualization.
       </p>
     </Box>
   );
