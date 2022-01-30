@@ -15,7 +15,7 @@ const AboutPage = () => {
       <p> Hey there!
 
           My name is Chaikal Amrullah, I am a master student at
-          Geodesy and Geoinformation, Technical University of Munich, Germany.
+          Geodesy and Geo-information, Technical University of Munich, Germany.
 
           First of all, thank you for participating in the trial of this app.
           This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)\n
