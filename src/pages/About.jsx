@@ -82,13 +82,13 @@ const AboutPage = () => {
               </li>
               <li>Images:
                   <ul>
-                      <li>Image 1: Personal property</li>
-                      <li>Image 2: Personal property</li>
-                      <li>Image 3: Personal property</li>
-                      <li>Image 4: Personal property</li>
-                      <li>Image 5: Personal property</li>
-                      <li>Image 6: Personal property</li>
-                      <li>Image 7: Personal property</li>
+                      <li>Image 1: Personal property.</li>
+                      <li>Image 2: Personal property.</li>
+                      <li>Image 3: Personal property.</li>
+                      <li>Image 4: Personal property.</li>
+                      <li>Image 5: Personal property.</li>
+                      <li>Image 6: Personal property.</li>
+                      <li>Image 7: Personal property.</li>
                   </ul>
               </li>
           </ol> <br /><br />
