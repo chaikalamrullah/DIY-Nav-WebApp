@@ -21,8 +21,8 @@ const WelcomeText = () => {
         <Typography variant="h5" component="h2" gutterBottom>
           <h2>Thank you for participating.</h2>
           <ol>
-            <li>Before we start open About page for the user application guidance</li>
-            <li>If you done following the tutorial, let us start with inserting the image.</li>
+            <li>Before we start, please open "About" page for the user application guidance.</li>
+            <li>If you've finished following the tutorial, let us start with inserting the image.</li>
           </ol>
         </Typography>
       </Container>
