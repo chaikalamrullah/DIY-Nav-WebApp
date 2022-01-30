@@ -27,26 +27,27 @@ const AboutPage = () => {
 
           The source of the icon used in this application comes from the following link:
 
-          - Floor plans:
-          - Floor plan for Image 1:
-          - Floor plan for Image 2:
-          - Floor plan for Image 3:
-          - Floor plan for Image 4:
-          - Floor plan for Image 5:
-          - Floor plan for Image 6:
-          - Floor plan for Image 7:
+          - Floor plans
+             - Floor plan for Image 1:
+             - Floor plan for Image 2:
+             - Floor plan for Image 3:
+             - Floor plan for Image 4:
+             - Floor plan for Image 5:
+             - Floor plan for Image 6:
+             - Floor plan for Image 7:
 
           - Navigation:
-
+             -
 
           - Rooms:
-          - Administration:
-          - Class:
-          - Kitchen:
-          - Laboratory:
-          - Library:
+             - Administration:
+             - Class:
+             - Kitchen:
+             - Laboratory:
+             - Library:
 
           - Hallways:
+             -
 
       </p>
     </Box>
