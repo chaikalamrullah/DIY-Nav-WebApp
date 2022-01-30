@@ -10,8 +10,6 @@ import MenuItem from '@mui/material/MenuItem';
 import CustomIcon from './CustomIcon';
 import StyledMenu from './StyledMenu';
 import DisabledRouteSvg from '../symbols/navigation/disabled-intersect.svg';
-import LeftIntersectionSvg from '../symbols/navigation/left-intersect.svg';
-import RightIntersectionSvg from '../symbols/navigation/right-intersect.svg';
 import UnavailableSvg from '../symbols/navigation/unavailable.svg';
 import WarningSvg from '../symbols/navigation/warning.svg';
 
@@ -76,13 +74,6 @@ const SiderNavigation = () => {
       >
         <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={DisabledRouteSvg} alt="Disabled Intersection" />Disabled Intersection
-        </MenuItem>
-        <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={LeftIntersectionSvg} alt="Left Intersection" />Left Intersection
-        </MenuItem>
-        <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={RightIntersectionSvg} alt="Right Intersection" />Right Intersection
-        </MenuItem>
         <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={UnavailableSvg} alt="Unavailable" />Unavailable
         </MenuItem>
