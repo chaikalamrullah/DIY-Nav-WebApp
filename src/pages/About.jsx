@@ -15,8 +15,8 @@ const AboutPage = () => {
       <p> Hey there!
           First of all thank you for participating in the trial of this app.
 
-          This application was made as part of the Project Cartography coursework
-          (Winter Semester 2021/2022) with title "Building a Design-It-Yourself Navigation Web App Interface".
+          This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)
+          with title "Building a Design-It-Yourself Navigation Web App Interface".
           The application is made to find out user preferences related to
           symbol design for navigation applications on Augmented Reality (AR) devices.
           Symbols that can be easily understood by users are expected
