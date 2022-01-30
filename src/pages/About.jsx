@@ -55,8 +55,7 @@ const AboutPage = () => {
 
           Acknowledgments for this application are also addressed to
           Shabriwa Shalat (https://github.com/briwa/react-image-annotate)
-          for the initial development of the application.
-
+          for the initial development of the application.</br>
       </p>
     </Box>
   );
