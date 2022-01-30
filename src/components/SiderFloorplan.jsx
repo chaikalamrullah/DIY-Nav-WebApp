@@ -7,8 +7,8 @@ import ListItemText from '@mui/material/ListItemText';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import MenuItem from '@mui/material/MenuItem';
 
-import CustomIcon from './CustomIcon';
-import StyledMenu from './StyledMenu';
+//import CustomIcon from './CustomIcon';
+//import StyledMenu from './StyledMenu';
 import FI1Svg from '../symbols/floorplan/Floorplan_Image1.svg';
 import FI2Svg from '../symbols/floorplan/Floorplan_Image2.svg';
 import FI3Svg from '../symbols/floorplan/Floorplan_Image3.svg';

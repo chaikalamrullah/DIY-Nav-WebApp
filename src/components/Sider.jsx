@@ -15,6 +15,7 @@ import SiderProperties from './SiderProperties';
 import { DRAWER_WIDTH } from '../constants';
 import { useToggleSider } from '../hooks';
 import SiderHallway from "./SiderHallway";
+import SiderFloorplan from "./SiderFloorplan";
 
 const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
@@ -62,6 +63,7 @@ const Sider = () => {
     <Divider />
     <List>
       <SiderBaseImage />
+      <SiderFloorplan />
       <SiderNavigation />
       <SiderRoom />
       <SiderHallway />
