@@ -14,7 +14,7 @@ import ClassSvg from '../symbols/room/class.svg';
 import ComLabSvg from '../symbols/room/com-lab.svg';
 import KitchenSvg from '../symbols/room/kitchen.svg';
 import LaboratorySvg from '../symbols/room/laboratory.svg';
-import LibararySvg from '../symbols/room/library.svg';
+import LibrarySvg from '../symbols/room/library.svg';
 import OfficeSvg from '../symbols/room/office.svg';
 import SecuritySvg from '../symbols/room/security.svg';
 import ShopSvg from '../symbols/room/shop.svg';
@@ -97,7 +97,7 @@ const SiderRoom = () => {
           <CustomIcon src={LaboratorySvg} alt="Laboratory" />Laboratory
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={LibararySvg} alt="Libarary" />Libarary
+          <CustomIcon src={LibrarySvg} alt="Libarary" />Libarary
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={OfficeSvg} alt="Staff Office" />Office
