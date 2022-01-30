@@ -77,25 +77,25 @@ const SiderFloorplan = () => {
         }}
       >
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI1Svg} alt="Floor plan for Image 1" />FI1
+          <CustomIcon src={FI1Svg} alt="Floor plan for Image 1" />Floor plan 1
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI2Svg} alt="Floor plan for Image 2" />FI2
+          <CustomIcon src={FI2Svg} alt="Floor plan for Image 2" />Floor plan 2
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI3Svg} alt="Floor plan for Image 3" />FI3
+          <CustomIcon src={FI3Svg} alt="Floor plan for Image 3" />Floor plan3
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI4Svg} alt="Floor plan for Image 4" />FI4
+          <CustomIcon src={FI4Svg} alt="Floor plan for Image 4" />Floor plan 4
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI5Svg} alt="Floor plan for Image 5" />FI5
+          <CustomIcon src={FI5Svg} alt="Floor plan for Image 5" />Floor plan 5
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI6Svg} alt="Floor plan for Image 6" />FI6
+          <CustomIcon src={FI6Svg} alt="Floor plan for Image 6" />Floor plan 6
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FI7Svg} alt="Floor plan for Image 7" />FI7
+          <CustomIcon src={FI7Svg} alt="Floor plan for Image 7" />Floor plan 7
         </MenuItem>
       </StyledMenu>
     </>
