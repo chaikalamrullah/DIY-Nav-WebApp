@@ -32,6 +32,8 @@ export const useDownloadCSV = () => {
           item.title,
           item.x + (item.width * item.scaleX / 2),
           item.y + (item.height * item.scaleY / 2),
+          item.width * item.scaleX,
+          item.height * item.scaleY,
           encodeURIComponent(JSON.stringify(item.attributes)),
         ];
       }
@@ -43,7 +45,7 @@ export const useDownloadCSV = () => {
   return useCallback(() => {
     if (shapedItems.length === 0) return;
 
-    const headers = [['title', 'x', 'y', 'attributes']];
+    const headers = [['title', 'x', 'y', 'width', 'height', 'attributes']];
     const csvContent = 'data:text/csv;charset=utf-8,'
       + headers.concat(shapedItems).map((m) => m.join(',')).join('\n');
 
