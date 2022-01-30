@@ -19,7 +19,7 @@ const WelcomeText = () => {
           No image set.
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
-          {'Set an image to the canvas before proceeding.'}
+          {'Thank you for participating. Before we start please insert image according to the guideline.'}
         </Typography>
       </Container>
     </Box>
