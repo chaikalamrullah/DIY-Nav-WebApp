@@ -13,7 +13,7 @@ import AdministrationSvg from '../symbols/room/administration.svg';
 import ClassSvg from '../symbols/room/class.svg';
 import KitchenSvg from '../symbols/room/kitchen.svg';
 import LaboratorySvg from '../symbols/room/laboratory.svg';
-import LibararySvg from '../symbols/room/libarary.svg';
+import LibararySvg from '../symbols/room/library.svg';
 
 import { addItem } from '../store/slices/canvas';
 import { createIcon } from '../helpers/items';
