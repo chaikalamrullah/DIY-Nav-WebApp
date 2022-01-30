@@ -19,9 +19,11 @@ const WelcomeText = () => {
           No image set.
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
-          {'Thank you for participating.'}
-            {'Before we start open About page for the user application guidance.'}
-            {'If you done following the tutorial, let us start with inserting the image.'}
+          <h2>Thank you for participating.</h2>
+          <ol>
+            <li>Before we start open About page for the user application guidance</li>
+            <li>If you done following the tutorial, let us start with inserting the image.</li>
+          </ol>
         </Typography>
       </Container>
     </Box>
