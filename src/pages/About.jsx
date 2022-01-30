@@ -72,8 +72,8 @@ const AboutPage = () => {
              - Utility:
 
           Acknowledgments for this application are also addressed to
-          Shabriwa Shalat (https://github.com/briwa/react-image-annotate)
-          for the initial development of the application.
+          Shalat, Shabriwa (https://github.com/briwa/react-image-annotate)
+          for the initial development of the application; Raisah Irfani, Khonsa for Route Image Visualization.
       </p>
     </Box>
   );
