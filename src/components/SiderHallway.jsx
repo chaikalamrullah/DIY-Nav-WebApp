@@ -115,4 +115,4 @@ const SiderHallway = () => {
   );
 };
 
-export default SiderAddIcons;
+export default SiderHallway;
