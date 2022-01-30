@@ -14,7 +14,7 @@ const AboutPage = () => {
       <h2>About</h2>
       <p> Hey there!
           First of all thank you for participating in the trial of this app.
-          This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)
+          This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)\n
           with title "Building a Design-It-Yourself Navigation Web App Interface".
           The application is made to find out user preferences related to
           symbol design for navigation applications on Augmented Reality (AR) devices.
@@ -30,27 +30,46 @@ const AboutPage = () => {
           The source of the icon used in this application comes from the following link:
 
           - Floor plans
-             - Floor plan for Image 1:
-             - Floor plan for Image 2:
-             - Floor plan for Image 3:
-             - Floor plan for Image 4:
-             - Floor plan for Image 5:
-             - Floor plan for Image 6:
-             - Floor plan for Image 7:
+             - Floor plan for Image 1: TUM main campus building official document and private source.
+             - Floor plan for Image 2: TUM main campus building official document and private source.
+             - Floor plan for Image 3: TUM main campus building official document and private source.
+             - Floor plan for Image 4: TUM main campus building official document and private source.
+             - Floor plan for Image 5: TUM main campus building official document and private source.
+             - Floor plan for Image 6: TUM main campus building official document and private source.
+             - Floor plan for Image 7: TUM main campus building official document and private source.
 
           - Navigation:
-             -
+             - Disabled Intersection:
+             - Left Intersection:
+             - Right Intersection:
+             - Unavailable:
+             - Warning:
 
           - Rooms:
              - Administration:
              - Class:
+             - Computer Lab.:
              - Kitchen:
              - Laboratory:
              - Library:
+             - Office:
+             - Security Office:
+             - Shop:
+             - Storage Room:
+             - Study Room:
+             - Toilet:
 
           - Hallways:
-             -
-
+             - Bench:
+             - Door:
+             - Elevator:
+             - Information:
+             - Painting:
+             - Plant:
+             - Ramps:
+             - Stairs:
+             - Statue:
+             - Utility:
 
           Acknowledgments for this application are also addressed to
           Shabriwa Shalat (https://github.com/briwa/react-image-annotate)
