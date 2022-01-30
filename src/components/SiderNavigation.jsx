@@ -74,7 +74,8 @@ const SiderNavigation = () => {
       >
         <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={DisabledRouteSvg} alt="Disabled Intersection" />Disabled Intersection
-        <MenuItem onClick={addIconAndClose}>
+        </MenuItem>
+          <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={UnavailableSvg} alt="Unavailable" />Unavailable
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
