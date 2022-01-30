@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 import SiderFloorplan from './SiderFloorplan';
+import SiderHallway from './SiderHallway';
 import SiderRoom from './SiderRoom';
 import SiderNavigation from './SiderNavigation';
 import SiderAddIcons from './SiderAddIcons';
