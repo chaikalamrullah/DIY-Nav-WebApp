@@ -6,6 +6,9 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
+import SiderFloorplan from './SiderFloorplan';
+import SiderRoom from './SiderRoom';
+import SiderNavigation from './SiderNavigation';
 import SiderAddIcons from './SiderAddIcons';
 import SiderAddText from './SiderAddText';
 import SiderBaseImage from './SiderBaseImage';
@@ -14,8 +17,6 @@ import SiderProperties from './SiderProperties';
 
 import { DRAWER_WIDTH } from '../constants';
 import { useToggleSider } from '../hooks';
-import SiderHallway from "./SiderHallway";
-import SiderFloorplan from "./SiderFloorplan";
 
 const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
