@@ -14,7 +14,9 @@ export const useCreateText = (text) => {
   useEffect(() => {
     if (!canvas || !baseImage) return;
 
-    const fabricText = new fabric.IText(text.attributes.text);
+    const fabricText = new fabric.IText(text.attributes.text, {
+      fontFamily: 'Helvetica'
+    });
 
     setInitialItemProps(text, fabricText, baseImage);
     canvas.add(fabricText).setActiveObject(fabricText).renderAll();
