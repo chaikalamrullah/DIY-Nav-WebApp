@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import AddBoxIcon from '@mui/icons-material/AddBox';
+import OtherHousesIcon from '@mui/icons-material/OtherHouses';
 import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
@@ -68,7 +68,7 @@ const SiderRoom = () => {
         onClick={handleClick}
       >
         <ListItemIcon>
-          <AddBoxIcon />
+          <OtherHousesIcon />
         </ListItemIcon>
         <ListItemText primary="Add room icons" />
       </ListItem>

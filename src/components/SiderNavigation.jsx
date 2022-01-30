@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import AddBoxIcon from '@mui/icons-material/AddBox';
+import ExploreIcon from '@mui/icons-material/Explore';
 import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
@@ -59,7 +59,7 @@ const SiderNavigation = () => {
         onClick={handleClick}
       >
         <ListItemIcon>
-          <AddBoxIcon />
+          <ExploreIcon />
         </ListItemIcon>
         <ListItemText primary="Add navigation icons" />
       </ListItem>

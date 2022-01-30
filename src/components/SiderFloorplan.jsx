@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import AddBoxIcon from '@mui/icons-material/AddBox';
+import AutoAwesomeMosaicIcon from '@mui/icons-material/AutoAwesomeMosaic';
 import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
@@ -63,7 +63,7 @@ const SiderFloorplan = () => {
         onClick={handleClick}
       >
         <ListItemIcon>
-          <AddBoxIcon />
+          <AutoAwesomeMosaicIcon />
         </ListItemIcon>
         <ListItemText primary="Add floor plan" />
       </ListItem>
