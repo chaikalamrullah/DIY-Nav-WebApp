@@ -49,6 +49,9 @@ const AboutPage = () => {
           - Hallways:
              -
 
+
+          Acknowledgments for this application are also addressed to Shabriwa Shalat (https://github.com/briwa/react-image-annotate) for the initial development of the application.
+
       </p>
     </Box>
   );
