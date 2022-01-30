@@ -10,7 +10,6 @@ import SiderFloorplan from './SiderFloorplan';
 import SiderHallway from './SiderHallway';
 import SiderRoom from './SiderRoom';
 import SiderNavigation from './SiderNavigation';
-import SiderAddIcons from './SiderAddIcons';
 import SiderAddText from './SiderAddText';
 import SiderBaseImage from './SiderBaseImage';
 import SiderDownloads from './SiderDownloads';
@@ -69,7 +68,6 @@ const Sider = () => {
       <SiderNavigation />
       <SiderRoom />
       <SiderHallway />
-      <SiderAddIcons />
       <SiderAddText />
       <SiderDownloads />
     </List>
