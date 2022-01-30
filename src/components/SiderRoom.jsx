@@ -11,10 +11,16 @@ import CustomIcon from './CustomIcon';
 import StyledMenu from './StyledMenu';
 import AdministrationSvg from '../symbols/room/administration.svg';
 import ClassSvg from '../symbols/room/class.svg';
+import ComLabSvg from '../symbols/room/com-lab.svg';
 import KitchenSvg from '../symbols/room/kitchen.svg';
 import LaboratorySvg from '../symbols/room/laboratory.svg';
 import LibararySvg from '../symbols/room/library.svg';
-import PersonSvg from '../symbols/room/person.svg';
+import OfficeSvg from '../symbols/room/office.svg';
+import SecuritySvg from '../symbols/room/security.svg';
+import ShopSvg from '../symbols/room/shop.svg';
+import StorageSvg from '../symbols/room/storage.svg';
+import StudySvg from '../symbols/room/study.svg';
+import ToiletSvg from '../symbols/room/toilet.svg';
 
 import { addItem } from '../store/slices/canvas';
 import { createIcon } from '../helpers/items';
@@ -82,6 +88,9 @@ const SiderRoom = () => {
           <CustomIcon src={ClassSvg} alt="Class Room" />Class
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={ComLabSvg} alt="Computer Lab." />ComLab
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
           <CustomIcon src={KitchenSvg} alt="Kitchen" />Kitchen
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
@@ -91,7 +100,22 @@ const SiderRoom = () => {
           <CustomIcon src={LibararySvg} alt="Libarary" />Libarary
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={PersonSvg} alt="Person" />Person
+          <CustomIcon src={OfficeSvg} alt="Staff Office" />Office
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={SecuritySvg} alt="Security Office" />Security
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={ShopSvg} alt="Shop" />Shop
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={StorageSvg} alt="Storage Room" />Storage
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={StudySvg} alt="Study Room" />Study
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={ToiletSvg} alt="Toilet" />Toilet
         </MenuItem>
       </StyledMenu>
     </>
