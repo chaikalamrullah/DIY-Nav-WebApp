@@ -9,14 +9,16 @@ import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
 import StyledMenu from './StyledMenu';
-import AccessibilitySvg from '../symbols/accessibility.svg';
-import FireSvg from '../symbols/fire.svg';
-import InfoSvg from '../symbols/info.svg';
+import DisabledRouteSvg from '../symbols/navigation/disabled-intersect.svg';
+import LeftIntersectionSvg from '../symbols/navigation/left-intersect.svg';
+import RightIntersectionSvg from '../symbols/navigation/right-intersect.svg';
+import UnavailableSvg from '../symbols/navigation/unavailable.svg';
+import WarningSvg from '../symbols/navigation/warning.svg';
 
 import { addItem } from '../store/slices/canvas';
 import { createIcon } from '../helpers/items';
 
-const SiderAddIcons = () => {
+const SiderNavigation = () => {
   const baseImage = useSelector((state) => state.canvas.baseImage);
   const dispatch = useDispatch();
 
@@ -73,17 +75,23 @@ const SiderAddIcons = () => {
         }}
       >
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={AccessibilitySvg} alt="Accessibility" />Accessibility
+          <CustomIcon src={DisabledRouteSvg} alt="Disabled Intersection" />DisabledRoute
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FireSvg} alt="Fire" />Fire
+          <CustomIcon src={LeftIntersectionSvg} alt="Left Intersection" />LeftIntersection
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={InfoSvg} alt="Info" />Info
+          <CustomIcon src={RightIntersectionSvg} alt="Right Intersection" />RightIntersection
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={UnavailableSvg} alt="Unavailable" />Unavailable
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={WarningSvg} alt="Warning" />Warning
         </MenuItem>
       </StyledMenu>
     </>
   );
 };
 
-export default SiderAddIcons;
+export default SiderNavigation;
