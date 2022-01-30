@@ -52,8 +52,8 @@ const SiderAddIcons = () => {
     <>
       <ListItem
         button
-        id="sider-add-icons"
-        aria-controls="sider-icons-list"
+        id="sider-navigation-icons"
+        aria-controls="sider-navigation-list"
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
@@ -61,15 +61,15 @@ const SiderAddIcons = () => {
         <ListItemIcon>
           <AddBoxIcon />
         </ListItemIcon>
-        <ListItemText primary="Add icons" />
+        <ListItemText primary="Add navigation icons" />
       </ListItem>
       <StyledMenu
-        id="sider-icons-list"
+        id="sider-navigation-list"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          'aria-labelledby': 'sider-add-icons',
+          'aria-labelledby': 'sider-navigation-list',
         }}
       >
         <MenuItem onClick={addIconAndClose}>
