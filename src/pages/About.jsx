@@ -12,73 +12,91 @@ const AboutPage = () => {
       }}
     >
       <h2>About</h2>
-      <p> Hey there!
+      <p> Hey there! <br /> <br />
 
-          My name is Chaikal Amrullah, I am a master student at
-          Geodesy and Geo-information, Technical University of Munich, Germany.
+          My name is Chaikal Amrullah, I am a master student at<br />
+          Geodesy and Geo-information, Technical University of Munich, Germany. <br /> <br />
 
-          First of all, thank you for participating in the trial of this app.
-          This application was made as part of the Project Cartography coursework (Winter Semester 2021/2022)\n
-          with the title "Building a Design-It-Yourself Navigation Web App Interface".
-          The application is made to find out user preferences related to
-          symbol design for navigation applications on Augmented Reality (AR) devices.
-          Symbols that can be easily understood by users are expected
-          to increase user comfort in using the device and can make it easier
-          for users to remember travel routes.
-          Before you start, make sure you watch the app usage guide.
-          The application user guide video can be seen at the following link... .
+          First of all, thank you for participating in the trial of this app. This application was made as part of <br />
+          the Project Cartography coursework (Winter Semester 2021/2022) with the title "Building a Design-It-Yourself <br />
+          Navigation Web App Interface". The application is made to find out user preferences related to symbol design <br />
+          for navigation applications such as Augmented Reality (AR) devices. The symbols then can be easily understood <br />
+          by users are expected to increase user comfort in using the device and can make it easier for users <br />
+          to remember travel routes.<br /> <br />
+          Before you start, make sure you watch the application guideline. The application user guide video can be seen <br />
+          at the following link:
+          <br /><br />
+          You need also to download the test image and supporting information at the following link:
+          <br /><br />
 
-         The link to download the Image and supporting information can be found
-          at the following link... .
+          The source material for this application development such as icons and images comes from the following link:
 
-          The source of the icon used in this application comes from the following link:
+          <ol>
+              <li>Floor plans:
+              <ul>
+                  <li>Floor plan for Image 1: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 2: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 3: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 4: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 5: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 6: TUM main campus building official document and private source. </li>
+                  <li>Floor plan for Image 7: TUM main campus building official document and private source. </li>
+              </ul>
+              </li>
+              <li>Navigation:
+              <ul>
+                  <li>Disabled Intersection: https://www.svgrepo.com and personal resource.</li>
+                  <li>Unavailable: https://www.svgrepo.com and personal resource.</li>
+                  <li>Warning: https://www.svgrepo.com and personal resource.</li>
+              </ul>
+              </li>
+              <li>Rooms:
+              <ul>
+                  <li>Administration: https://www.svgrepo.com</li>
+                  <li>Class: https://www.svgrepo.com</li>
+                  <li>Computer Lab.: https://www.svgrepo.com</li>
+                  <li>Kitchen: https://www.svgrepo.com</li>
+                  <li>Laboratory: https://www.svgrepo.com</li>
+                  <li>Library: https://www.svgrepo.com</li>
+                  <li>Office: https://www.svgrepo.com</li>
+                  <li>Security Office: https://www.svgrepo.com</li>
+                  <li>Shop: https://www.svgrepo.com</li>
+                  <li>Storage Room: https://www.svgrepo.com</li>
+                  <li>Study Room: https://www.svgrepo.com</li>
+                  <li>Toilet: https://www.svgrepo.com</li>
+              </ul>
+              </li>
+              <li>Hallways:
+                  <ul>
+                      <li>Bench: https://www.svgrepo.com</li>
+                      <li>Door: https://www.svgrepo.com</li>
+                      <li>Elevator: https://www.svgrepo.com</li>
+                      <li>Information: https://www.svgrepo.com</li>
+                      <li>Painting: https://www.svgrepo.com</li>
+                      <li>Plant: https://www.svgrepo.com</li>
+                      <li>Ramp: https://www.svgrepo.com</li>
+                      <li>Stair: https://www.svgrepo.com</li>
+                      <li>Statue: https://www.svgrepo.com</li>
+                      <li>Utility: https://www.svgrepo.com</li>
+                  </ul>
+              </li>
+              <li>Images:
+                  <ul>
+                      <li>Image 1: Personal property</li>
+                      <li>Image 2: Personal property</li>
+                      <li>Image 3: Personal property</li>
+                      <li>Image 4: Personal property</li>
+                      <li>Image 5: Personal property</li>
+                      <li>Image 6: Personal property</li>
+                      <li>Image 7: Personal property</li>
+                  </ul>
+              </li>
+          </ol> <br /><br />
 
-          - Floor plans
-             - Floor plan for Image 1: TUM main campus building official document and private source.
-             - Floor plan for Image 2: TUM main campus building official document and private source.
-             - Floor plan for Image 3: TUM main campus building official document and private source.
-             - Floor plan for Image 4: TUM main campus building official document and private source.
-             - Floor plan for Image 5: TUM main campus building official document and private source.
-             - Floor plan for Image 6: TUM main campus building official document and private source.
-             - Floor plan for Image 7: TUM main campus building official document and private source.
+          Acknowledgments for this application are also addressed to Shalat, Shabriwa (https://github.com/briwa/react-<br />
+          image-annotate)for the initial application development of the application and Raisah Irfani, Khonsa<br />
+          for route image visualization.
 
-          - Navigation:
-             - Disabled Intersection: https://www.svgrepo.com and personal resource.
-             - Left Intersection: https://www.svgrepo.com and personal resource.
-             - Right Intersection: https://www.svgrepo.com and personal resource.
-             - Unavailable: https://www.svgrepo.com and personal resource.
-             - Warning: https://www.svgrepo.com and personal resource.
-
-          - Rooms:
-             - Administration: https://www.svgrepo.com
-             - Class: https://www.svgrepo.com
-             - Computer Lab.: https://www.svgrepo.com
-             - Kitchen: https://www.svgrepo.com
-             - Laboratory: https://www.svgrepo.com
-             - Library: https://www.svgrepo.com
-             - Office: https://www.svgrepo.com
-             - Security Office: https://www.svgrepo.com
-             - Shop: https://www.svgrepo.com
-             - Storage Room: https://www.svgrepo.com
-             - Study Room: https://www.svgrepo.com
-             - Toilet: https://www.svgrepo.com
-
-          - Hallways:
-             - Bench: https://www.svgrepo.com
-             - Door: https://www.svgrepo.com
-             - Elevator: https://www.svgrepo.com
-             - Information: https://www.svgrepo.com
-             - Painting: https://www.svgrepo.com
-             - Plant: https://www.svgrepo.com
-             - Ramps: https://www.svgrepo.com
-             - Stairs: https://www.svgrepo.com
-             - Statue: https://www.svgrepo.com
-             - Utility: https://www.svgrepo.com
-
-          Acknowledgments for this application are also addressed to
-          Shalat, Shabriwa (https://github.com/briwa/react-image-annotate)
-          for the initial application development of the application and
-          Raisah Irfani, Khonsa for route image visualization.
       </p>
     </Box>
   );
