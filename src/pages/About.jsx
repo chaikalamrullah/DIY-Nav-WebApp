@@ -43,37 +43,37 @@ const AboutPage = () => {
              - Floor plan for Image 7: TUM main campus building official document and private source.
 
           - Navigation:
-             - Disabled Intersection:
-             - Left Intersection:
-             - Right Intersection:
-             - Unavailable:
-             - Warning:
+             - Disabled Intersection: https://www.svgrepo.com and personal resource.
+             - Left Intersection: https://www.svgrepo.com and personal resource.
+             - Right Intersection: https://www.svgrepo.com and personal resource.
+             - Unavailable: https://www.svgrepo.com and personal resource.
+             - Warning: https://www.svgrepo.com and personal resource.
 
           - Rooms:
-             - Administration:
-             - Class:
-             - Computer Lab.:
-             - Kitchen:
-             - Laboratory:
-             - Library:
-             - Office:
-             - Security Office:
-             - Shop:
-             - Storage Room:
-             - Study Room:
-             - Toilet:
+             - Administration: https://www.svgrepo.com
+             - Class: https://www.svgrepo.com
+             - Computer Lab.: https://www.svgrepo.com
+             - Kitchen: https://www.svgrepo.com
+             - Laboratory: https://www.svgrepo.com
+             - Library: https://www.svgrepo.com
+             - Office: https://www.svgrepo.com
+             - Security Office: https://www.svgrepo.com
+             - Shop: https://www.svgrepo.com
+             - Storage Room: https://www.svgrepo.com
+             - Study Room: https://www.svgrepo.com
+             - Toilet: https://www.svgrepo.com
 
           - Hallways:
-             - Bench:
-             - Door:
-             - Elevator:
-             - Information:
-             - Painting:
-             - Plant:
-             - Ramps:
-             - Stairs:
-             - Statue:
-             - Utility:
+             - Bench: https://www.svgrepo.com
+             - Door: https://www.svgrepo.com
+             - Elevator: https://www.svgrepo.com
+             - Information: https://www.svgrepo.com
+             - Painting: https://www.svgrepo.com
+             - Plant: https://www.svgrepo.com
+             - Ramps: https://www.svgrepo.com
+             - Stairs: https://www.svgrepo.com
+             - Statue: https://www.svgrepo.com
+             - Utility: https://www.svgrepo.com
 
           Acknowledgments for this application are also addressed to
           Shalat, Shabriwa (https://github.com/briwa/react-image-annotate)
