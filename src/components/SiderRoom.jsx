@@ -94,4 +94,4 @@ const SiderRoom = () => {
   );
 };
 
-export default SiderAddIcons;
+export default SiderRoom;
