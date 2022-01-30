@@ -9,14 +9,22 @@ import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
 import StyledMenu from './StyledMenu';
-import AccessibilitySvg from '../symbols/accessibility.svg';
-import FireSvg from '../symbols/fire.svg';
-import InfoSvg from '../symbols/info.svg';
+import BenchSvg from '../symbols/hallway/bench.svg';
+import DoorSvg from '../symbols/hallway/door.svg';
+import ElevatorSvg from '../symbols/hallway/elevator.svg';
+import InformationSvg from '../symbols/hallway/information.svg';
+import PaintingSvg from '../symbols/hallway/painting.svg';
+import PlantSvg from '../symbols/hallway/plant.svg';
+import RampsSvg from '../symbols/hallway/ramps.svg';
+import StairsSvg from '../symbols/hallway/stairs.svg';
+import StatueSvg from '../symbols/hallway/statue.svg';
+import UtilitySvg from '../symbols/hallway/utility.svg';
+
 
 import { addItem } from '../store/slices/canvas';
 import { createIcon } from '../helpers/items';
 
-const SiderAddIcons = () => {
+const SiderHallway = () => {
   const baseImage = useSelector((state) => state.canvas.baseImage);
   const dispatch = useDispatch();
 
@@ -52,8 +60,8 @@ const SiderAddIcons = () => {
     <>
       <ListItem
         button
-        id="sider-add-icons"
-        aria-controls="sider-icons-list"
+        id="sider-hallway-icons"
+        aria-controls="sider-hallway-list"
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
@@ -61,25 +69,46 @@ const SiderAddIcons = () => {
         <ListItemIcon>
           <AddBoxIcon />
         </ListItemIcon>
-        <ListItemText primary="Add icons" />
+        <ListItemText primary="Add hallway icons" />
       </ListItem>
       <StyledMenu
-        id="sider-icons-list"
+        id="sider-hallway-list"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          'aria-labelledby': 'sider-add-icons',
+          'aria-labelledby': 'sider-hallway-icons',
         }}
       >
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={AccessibilitySvg} alt="Accessibility" />Accessibility
+          <CustomIcon src={BenchSvg} alt="Bench" />Bench
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={FireSvg} alt="Fire" />Fire
+          <CustomIcon src={DoorSvg} alt="Door" />Door
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={InfoSvg} alt="Info" />Info
+          <CustomIcon src={ElevatorSvg} alt="Elevator" />Elevator
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={InformationSvg} alt="Information" />Information
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={PaintingSvg} alt="Painting" />Painting
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={PlantSvg} alt="Plant" />Plant
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={RampsSvg} alt="Ramps" />Ramps
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={StairsSvg} alt="Stairs" />Stairs
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={StatueSvg} alt="Statue" />Statue
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={UtilitySvg} alt="Utility" />Utility
         </MenuItem>
       </StyledMenu>
     </>
