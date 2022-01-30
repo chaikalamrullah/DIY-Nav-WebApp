@@ -9,16 +9,18 @@ import MenuItem from '@mui/material/MenuItem';
 
 import CustomIcon from './CustomIcon';
 import StyledMenu from './StyledMenu';
-import AdministrationSvg from '../symbols/room/administration.svg';
-import ClassSvg from '../symbols/room/class.svg';
-import KitchenSvg from '../symbols/room/kitchen.svg';
-import LaboratorySvg from '../symbols/room/laboratory.svg';
-import LibararySvg from '../symbols/room/libarary.svg';
+import FI1Svg from '../symbols/floorplan/Floorplan_Image1.svg';
+import FI2Svg from '../symbols/floorplan/Floorplan_Image2.svg';
+import FI3Svg from '../symbols/floorplan/Floorplan_Image3.svg';
+import FI4Svg from '../symbols/floorplan/Floorplan_Image4.svg';
+import FI5Svg from '../symbols/floorplan/Floorplan_Image5.svg';
+import FI6Svg from '../symbols/floorplan/Floorplan_Image6.svg';
+import FI7Svg from '../symbols/floorplan/Floorplan_Image7.svg';
 
 import { addItem } from '../store/slices/canvas';
 import { createIcon } from '../helpers/items';
 
-const SiderRoom = () => {
+const SiderFloorplan = () => {
   const baseImage = useSelector((state) => state.canvas.baseImage);
   const dispatch = useDispatch();
 
@@ -54,8 +56,8 @@ const SiderRoom = () => {
     <>
       <ListItem
         button
-        id="sider-room-icons"
-        aria-controls="sider-room-list"
+        id="sider-floorplan-icons"
+        aria-controls="sider-floorplan-list"
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
@@ -63,31 +65,37 @@ const SiderRoom = () => {
         <ListItemIcon>
           <AddBoxIcon />
         </ListItemIcon>
-        <ListItemText primary="Add room icons" />
+        <ListItemText primary="Add floor plan" />
       </ListItem>
       <StyledMenu
-        id="sider-room-list"
+        id="sider-floorplan-list"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          'aria-labelledby': 'sider-room-icons',
+          'aria-labelledby': 'sider-floorplan-icons',
         }}
       >
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={AdministrationSvg} alt="Administration Office" />Administration
+          <CustomIcon src={FI1Svg} alt="Floor plan for Image 1" />FI1
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={ClassSvg} alt="Class Room" />Class
+          <CustomIcon src={FI2Svg} alt="Floor plan for Image 2" />FI2
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={KitchenSvg} alt="Kitchen" />Kitchen
+          <CustomIcon src={FI3Svg} alt="Floor plan for Image 3" />FI3
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={LaboratorySvg} alt="Laboratory" />Laboratory
+          <CustomIcon src={FI4Svg} alt="Floor plan for Image 4" />FI4
         </MenuItem>
         <MenuItem onClick={addIconAndClose}>
-          <CustomIcon src={LibararySvg} alt="Libarary" />Libarary
+          <CustomIcon src={FI5Svg} alt="Floor plan for Image 5" />FI5
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={FI6Svg} alt="Floor plan for Image 6" />FI6
+        </MenuItem>
+        <MenuItem onClick={addIconAndClose}>
+          <CustomIcon src={FI7Svg} alt="Floor plan for Image 7" />FI7
         </MenuItem>
       </StyledMenu>
     </>
