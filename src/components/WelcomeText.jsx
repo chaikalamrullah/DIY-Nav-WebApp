@@ -22,7 +22,7 @@ const WelcomeText = () => {
           <h2>Thank you for participating.</h2>
           <ol>
             <li>Before we start, please open "About" page for the user application guidance.</li>
-            <li>If you've finished following the tutorial, let us start with inserting the image.</li>
+            <li>If you have finished following the tutorial, let us start with inserting the image.</li>
           </ol>
         </Typography>
       </Container>
