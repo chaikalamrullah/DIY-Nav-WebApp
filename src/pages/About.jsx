@@ -23,10 +23,11 @@ const AboutPage = () => {
           for navigation applications such as Augmented Reality (AR) devices. The symbols then can be easily understood <br />
           by users are expected to increase user comfort in using the device and can make it easier for users <br />
           to remember travel routes.<br /> <br />
-          Before you start, make sure you watch the user application guidance. The application user guide video can be <br />
-          seen at the following link:
+          Before you start, you need also to download the test image and supporting information at the following link:<br />
           <br /><br />
-          You need also to download the test image and supporting information at the following link:
+          Make sure you watch the user application guidance video. The application user guide video can be seen at the following link:<br />
+          <br /><br />
+          The survey and result submission can be seen at the following link:<br />
           <br /><br />
 
           The source material for this application development such as icons and images comes from the following link:
