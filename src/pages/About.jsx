@@ -27,7 +27,7 @@ const AboutPage = () => {
             https://1drv.ms/u/s!Aio9DaCcTfekrgvsQ9o3Fhn1VBvQ?e=TYjd81
           <br /><br />
           Make sure you watch the user application guidance video. The application user guide video can be seen at the following link:<br />
-            
+            https://youtu.be/gQGSl1TE1VI
           <br /><br />
           The survey and result submission can be seen at the following link:<br />
             https://forms.gle/tUkwQboT6vMxSSCz6
