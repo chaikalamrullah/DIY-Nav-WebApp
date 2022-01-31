@@ -45,7 +45,7 @@ export const useDownloadCSV = () => {
   return useCallback(() => {
     if (shapedItems.length === 0) return;
 
-    const headers = [['title', 'x', 'y', 'width', 'height', 'attributes']];
+    const headers = [['title', 'x', 'y', 'width', 'height', 'attributes ']];
     const csvContent = 'data:text/csv;charset=utf-8,'
       + headers.concat(shapedItems).map((m) => m.join(',')).join('\n');
 
