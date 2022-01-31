@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/DIY-Nav-WebApp/static/js/main.850f30cd.js",
+    "main.js": "/DIY-Nav-WebApp/static/js/main.2825d1f5.js",
     "static/media/Floorplan_Image4.svg": "/DIY-Nav-WebApp/static/media/Floorplan_Image4.361e8df15fabd7a5e5faa9d550159091.svg",
     "static/media/Floorplan_Image7.svg": "/DIY-Nav-WebApp/static/media/Floorplan_Image7.e9c4f19ebe1c3d7143906538bb9b7879.svg",
     "static/media/Floorplan_Image6.svg": "/DIY-Nav-WebApp/static/media/Floorplan_Image6.826c023b849b2ba44460da8e8ad6fc35.svg",
@@ -34,9 +34,9 @@
     "static/media/information.svg": "/DIY-Nav-WebApp/static/media/information.c7e59ea1641d957667c86f6ee61cead8.svg",
     "static/media/ramps.svg": "/DIY-Nav-WebApp/static/media/ramps.de1057044ae2c1903b8a6ebc04c53266.svg",
     "index.html": "/DIY-Nav-WebApp/index.html",
-    "main.850f30cd.js.map": "/DIY-Nav-WebApp/static/js/main.850f30cd.js.map"
+    "main.2825d1f5.js.map": "/DIY-Nav-WebApp/static/js/main.2825d1f5.js.map"
   },
   "entrypoints": [
-    "static/js/main.850f30cd.js"
+    "static/js/main.2825d1f5.js"
   ]
 }
