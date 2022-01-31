@@ -24,10 +24,13 @@ const AboutPage = () => {
           by users are expected to increase user comfort in using the device and can make it easier for users <br />
           to remember travel routes.<br /> <br />
           Before you start, you need also to download the test image and supporting information at the following link:<br />
+            https://1drv.ms/u/s!Aio9DaCcTfekrgvsQ9o3Fhn1VBvQ?e=TYjd81
           <br /><br />
           Make sure you watch the user application guidance video. The application user guide video can be seen at the following link:<br />
+            
           <br /><br />
           The survey and result submission can be seen at the following link:<br />
+            https://forms.gle/tUkwQboT6vMxSSCz6
           <br /><br />
 
           The source material for this application development such as icons and images comes from the following link:
